@@ -3,9 +3,9 @@ Jira health widget for dashing
 
 ## Description
 
-GitHub location: https://github.com/slam-it/dashing-jira-burndown
+GitHub location: https://github.com/slam-it/dashing-jira-health
 
-[Dashing](http://shopify.github.com/dashing) widget to display a [Jira](https://www.atlassian.com/software/jira) (greenhopper) burn-down of the active sprint
+[Dashing](http://shopify.github.com/dashing) widget to display the [Jira](https://www.atlassian.com/software/jira) (greenhopper) health status of the active sprint
 
 ## Installation
 ##### 1. Import Canvasjs library
