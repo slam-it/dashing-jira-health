@@ -1,0 +1,29 @@
+<div style="width:540px">
+  <div id="healthChart" class="left"></div>
+  <div class="right">
+    <div class="column">
+      <p>Days left</p>
+      <p data-bind="healthData['daysLeft']"></p>
+    </div>
+    <div class="column">
+      <p>Time elapsed</p>
+      <p data-bind="healthData['timeElapsed']"></p>
+    </div>
+    <div class="column">
+      <p>Work complete</p>
+      <p data-bind="healthData['workComplete']"></p>
+    </div>
+    <div class="column scope">
+      <p>Scope change</p>
+      <p data-bind="healthData['scopeChange']"></p>
+    </div>
+    <div class="column blocker">
+      <p>Blocker</p>
+      <p data-bind="healthData['blocker']"></p>
+    </div>
+    <div class="column flagged">
+      <p>Flagged</p>
+      <p data-bind="healthData['flagged']"></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+$background-color: #2d303a;
+
+.widget-health {
+  background-color: $background-color;
+
+  .change{
+    color: #D04438;
+  }
+
+  .fade {
+    opacity: 0.2
+  }
+
+  .left {
+    height:310px;
+    width:50%;
+  }
+
+  .right {
+    position:absolute;
+    left:310px;
+    top:25px;
+  }
+
+  .column {
+    width:50%;
+    height:33%;
+    float:left;
+    text-align:center;
+  }
+
+  p:nth-child(1) {
+    margin-top:10px;
+  }
+
+  p:nth-child(2) {
+    font-size:40px
+  }
+
+}
