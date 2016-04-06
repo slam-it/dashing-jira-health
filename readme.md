@@ -7,6 +7,10 @@ GitHub location: https://github.com/slam-it/dashing-jira-health
 
 [Dashing](http://shopify.github.com/dashing) widget to display the [Jira](https://www.atlassian.com/software/jira) (greenhopper) health status of the active sprint
 
+Example health widget:
+
+![Image](jira-health.png?raw=true)
+
 ## Installation
 ##### 1. Import Canvasjs library
 In `dashboards/layout.erb`, add this script tag:
